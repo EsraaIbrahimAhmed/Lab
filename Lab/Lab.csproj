@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8275FD47-210A-487D-BCBC-FC32F5CB082F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lab</RootNamespace>
+    <AssemblyName>Lab</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BL\analysis_management.cs" />
+    <Compile Include="BL\Cls_attendance.cs" />
+    <Compile Include="BL\CLS_CONTRACT.cs" />
+    <Compile Include="BL\Cls_Discounts.cs" />
+    <Compile Include="BL\Cls_Doctor.cs" />
+    <Compile Include="BL\Cls_ExternalLab.cs" />
+    <Compile Include="BL\CLS_LISTPATIENT.cs" />
+    <Compile Include="BL\Cls_LogIn.cs" />
+    <Compile Include="BL\Cls_Normals.cs" />
+    <Compile Include="BL\CLS_PATIENT.cs" />
+    <Compile Include="BL\Cls_Reservation.cs" />
+    <Compile Include="BL\Cls_result.cs" />
+    <Compile Include="BL\Cls_Supplier.cs" />
+    <Compile Include="BL\Cls_Workers.cs" />
+    <Compile Include="BL\group_management.cs" />
+    <Compile Include="DAL\DBL.cs" />
+    <Compile Include="PL\AboutUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\AboutUs.Designer.cs">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Analysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Analysis.designer.cs">
+      <DependentUpon>Analysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\AttendanceAndDismissal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\AttendanceAndDismissal.Designer.cs">
+      <DependentUpon>AttendanceAndDismissal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Company.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Company.designer.cs">
+      <DependentUpon>Company.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Create_Back_UP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Create_Back_UP.designer.cs">
+      <DependentUpon>Create_Back_UP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Doctor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Doctor.Designer.cs">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\ExternalLab.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ExternalLab.Designer.cs">
+      <DependentUpon>ExternalLab.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Group_management.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Group_management.designer.cs">
+      <DependentUpon>Group_management.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\ListOfAnalysisPrice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ListOfAnalysisPrice.Designer.cs">
+      <DependentUpon>ListOfAnalysisPrice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\ListPriceAfrterDiscouintForContractors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ListPriceAfrterDiscouintForContractors.Designer.cs">
+      <DependentUpon>ListPriceAfrterDiscouintForContractors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\ListPriceAfrterDiscouintForDoctors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ListPriceAfrterDiscouintForDoctors.Designer.cs">
+      <DependentUpon>ListPriceAfrterDiscouintForDoctors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\ListPriceAfrterDiscouintForELabs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\ListPriceAfrterDiscouintForELabs.Designer.cs">
+      <DependentUpon>ListPriceAfrterDiscouintForELabs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\list_patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\list_patient.designer.cs">
+      <DependentUpon>list_patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Normals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Normals.designer.cs">
+      <DependentUpon>Normals.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Patient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Patient.Designer.cs">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\PRINT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\PRINT.designer.cs">
+      <DependentUpon>PRINT.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Reservation.designer.cs">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Restor_Back_UP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Restor_Back_UP.designer.cs">
+      <DependentUpon>Restor_Back_UP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\result.designer.cs">
+      <DependentUpon>result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\supplier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\supplier.Designer.cs">
+      <DependentUpon>supplier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PL\Workers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PL\Workers.Designer.cs">
+      <DependentUpon>Workers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="PL\AboutUs.resx">
+      <DependentUpon>AboutUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Analysis.resx">
+      <DependentUpon>Analysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\AttendanceAndDismissal.resx">
+      <DependentUpon>AttendanceAndDismissal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Company.resx">
+      <DependentUpon>Company.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Create_Back_UP.resx">
+      <DependentUpon>Create_Back_UP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Doctor.resx">
+      <DependentUpon>Doctor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\ExternalLab.resx">
+      <DependentUpon>ExternalLab.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Group_management.resx">
+      <DependentUpon>Group_management.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\ListOfAnalysisPrice.resx">
+      <DependentUpon>ListOfAnalysisPrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\ListPriceAfrterDiscouintForContractors.resx">
+      <DependentUpon>ListPriceAfrterDiscouintForContractors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\ListPriceAfrterDiscouintForDoctors.resx">
+      <DependentUpon>ListPriceAfrterDiscouintForDoctors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\ListPriceAfrterDiscouintForELabs.resx">
+      <DependentUpon>ListPriceAfrterDiscouintForELabs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\list_patient.resx">
+      <DependentUpon>list_patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Normals.resx">
+      <DependentUpon>Normals.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Patient.resx">
+      <DependentUpon>Patient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\PRINT.resx">
+      <DependentUpon>PRINT.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Reservation.resx">
+      <DependentUpon>Reservation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Restor_Back_UP.resx">
+      <DependentUpon>Restor_Back_UP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\result.resx">
+      <DependentUpon>result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\supplier.resx">
+      <DependentUpon>supplier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PL\Workers.resx">
+      <DependentUpon>Workers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %2812%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login-button-png-12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\labph2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_15-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-button-icon-16545.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\th.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exitbtn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\second-try.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

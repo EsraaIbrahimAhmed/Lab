@@ -1,0 +1,62 @@
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\bin\Debug\Lab.exe.config
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.exe
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.pdb
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.csprojResolveAssemblyReference.cache
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.AboutUs.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Analysis.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.AttendanceAndDismissal.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Company.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Create_Back_UP.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Doctor.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.ExternalLab.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Group_management.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.ListOfAnalysisPrice.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.ListPriceAfrterDiscouintForContractors.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.ListPriceAfrterDiscouintForDoctors.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.ListPriceAfrterDiscouintForELabs.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.list_patient.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.LogIn.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.MainForm.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Normals.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Patient.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.PRINT.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Reservation.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Restor_Back_UP.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.result.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.supplier.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.PL.Workers.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.Properties.Resources.resources
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\obj\Debug\Lab.csproj.GenerateResource.Cache
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\bin\Debug\Lab.exe
+C:\Users\Esraa Ibrahim\Desktop\Projects\Lab\Lab\bin\Debug\Lab.pdb
+E:\Projects\Lab\Lab\bin\Debug\Lab.exe.config
+E:\Projects\Lab\Lab\obj\Debug\Lab.exe
+E:\Projects\Lab\Lab\obj\Debug\Lab.pdb
+E:\Projects\Lab\Lab\bin\Debug\Lab.exe
+E:\Projects\Lab\Lab\bin\Debug\Lab.pdb
+E:\Projects\Lab\Lab\obj\Debug\Lab.csprojResolveAssemblyReference.cache
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.AboutUs.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Analysis.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.AttendanceAndDismissal.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Company.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Create_Back_UP.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Doctor.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.ExternalLab.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Group_management.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.ListOfAnalysisPrice.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.ListPriceAfrterDiscouintForContractors.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.ListPriceAfrterDiscouintForDoctors.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.ListPriceAfrterDiscouintForELabs.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.list_patient.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.LogIn.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.MainForm.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Normals.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Patient.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.PRINT.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Reservation.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Restor_Back_UP.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.result.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.supplier.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Workers.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.Properties.Resources.resources
+E:\Projects\Lab\Lab\obj\Debug\Lab.csproj.GenerateResource.Cache
