@@ -60,3 +60,6 @@ E:\Projects\Lab\Lab\obj\Debug\Lab.PL.supplier.resources
 E:\Projects\Lab\Lab\obj\Debug\Lab.PL.Workers.resources
 E:\Projects\Lab\Lab\obj\Debug\Lab.Properties.Resources.resources
 E:\Projects\Lab\Lab\obj\Debug\Lab.csproj.GenerateResource.Cache
+C:\Users\Esraa Ibrahim\Desktop\GitHub\Lab\Lab\bin\Debug\Lab.exe.config
+C:\Users\Esraa Ibrahim\Desktop\GitHub\Lab\Lab\obj\Debug\Lab.exe
+C:\Users\Esraa Ibrahim\Desktop\GitHub\Lab\Lab\obj\Debug\Lab.pdb
